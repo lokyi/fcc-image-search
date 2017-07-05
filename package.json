@@ -1,0 +1,28 @@
+{
+  "name": "my-image-search",
+  "version": "0.0.1",
+  "description": "An image search abstraction layer based on Google custom search and mongoDB",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lokyi/fcc-url-shortener.git"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "needle": "^1.6.0",
+    "mongodb": "^2.2.29",
+    "moment": "^2.18.1"
+  },
+  "engines": {
+    "node": "8.1.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
